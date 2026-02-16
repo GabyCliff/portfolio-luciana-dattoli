@@ -16,8 +16,8 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Portfolio UX/UI Designer',
-  description: 'Portfolio de una disenadora UX/UI con estilo artistico inspirado en Studio Ghibli. Casos de estudio en Skincare, Google Drive, y apps de restaurantes en Buenos Aires.',
+  title: 'Portfolio UX/UI Designer - Luciana Dáttoli',
+  description: 'Transformo ideas complejas en interfaces intuitivas y memorables. Cada proyecto es una historia por contar, cada pantalla un lienzo donde la funcionalidad y la belleza se encuentran.',
 }
 
 export default function RootLayout({
