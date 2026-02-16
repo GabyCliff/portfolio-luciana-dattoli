@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    /* Ghibli-inspired palette */
+    /* Background: #FDFBF5 - gouache canvas / watercolor paper */
+    --background: 43 53% 97%;
+    --foreground: 222 12% 27%;
+
+    /* Card: slightly warmer than background */
+    --card: 40 40% 95%;
+    --card-foreground: 222 12% 27%;
+
+    /* Popover */
+    --popover: 43 53% 97%;
+    --popover-foreground: 222 12% 27%;
+
+    /* Primary: Verde Pradera #7BA65E */
+    --primary: 100 29% 51%;
+    --primary-foreground: 43 53% 97%;
+
+    /* Secondary: Azul Horizonte #89CFF0 */
+    --secondary: 205 80% 74%;
+    --secondary-foreground: 222 12% 27%;
+
+    /* Muted */
+    --muted: 40 30% 92%;
+    --muted-foreground: 222 8% 52%;
+
+    /* Accent: Ambar Gema #FFB347 */
+    --accent: 33 100% 64%;
+    --accent-foreground: 222 12% 20%;
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 100 29% 51%;
+
+    --chart-1: 100 29% 51%;
+    --chart-2: 205 80% 74%;
+    --chart-3: 33 100% 64%;
+    --chart-4: 0 47% 85%;
+    --chart-5: 222 12% 27%;
+
+    --radius: 1rem;
+
+    /* Custom Ghibli tokens */
+    --petal: 0 47% 85%;
+    --amber: 33 100% 64%;
+    --prairie: 100 29% 51%;
+    --horizon: 205 80% 74%;
+    --canvas: 43 53% 97%;
+    --carbon: 222 12% 27%;
+
+    --sidebar-background: 43 53% 97%;
+    --sidebar-foreground: 222 12% 27%;
+    --sidebar-primary: 100 29% 51%;
+    --sidebar-primary-foreground: 43 53% 97%;
+    --sidebar-accent: 40 30% 92%;
+    --sidebar-accent-foreground: 222 12% 27%;
+    --sidebar-border: 40 20% 88%;
+    --sidebar-ring: 100 29% 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Ghibli decorative styles */
+@layer components {
+  .ghibli-divider {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--prairie)) 20%,
+      hsl(var(--amber)) 50%,
+      hsl(var(--petal)) 80%,
+      transparent
+    );
+    height: 2px;
+    opacity: 0.5;
+  }
+
+  .ghibli-card {
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    border-radius: var(--radius);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .ghibli-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px -8px hsla(var(--prairie), 0.15),
+                0 4px 16px -4px hsla(var(--amber), 0.1);
+  }
+
+  .watercolor-blob {
+    filter: blur(60px);
+    opacity: 0.15;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+  }
+}

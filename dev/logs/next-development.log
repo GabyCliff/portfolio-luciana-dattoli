@@ -1,0 +1,955 @@
+[00:00:01.169] Server  LOG     ✓ Ready in 792ms
+[00:00:27.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:28.035] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <Page>
+                        <main className="relative m...">
+                          <Navigation>
+                          <HeroSection>
+                            <section id="inicio" className="relative f...">
+                              <div>
+                              <div>
+                              <div>
+                              <FloatingPetal delay={0} left="10%" size={14}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "10%"
+-                                   left: "10%"
++                                   top: "35.749746607085754%"
+-                                   top: "44.5598%"
++                                   animationDelay: "0s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "0s"
+                                  }}
+                                >
+                              <FloatingPetal delay={2} left="30%" size={10}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "30%"
+-                                   left: "30%"
++                                   top: "60.19282025335769%"
+-                                   top: "19.4499%"
++                                   animationDelay: "2s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "2s"
+                                  }}
+                                >
+                              <FloatingPetal delay={4} left="70%" size={12}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "70%"
+-                                   left: "70%"
++                                   top: "52.682876913195756%"
+-                                   top: "43.9598%"
++                                   animationDelay: "4s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "4s"
+                                  }}
+                                >
+                              <FloatingPetal delay={1} left="85%" size={16}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "85%"
+-                                   left: "85%"
++                                   top: "64.69197373722173%"
+-                                   top: "14.8852%"
++                                   animationDelay: "1s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "1s"
+                                  }}
+                                >
+                              <FloatingPetal delay={3} left="50%" size={11}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "24.406485016986814%"
+-                                   top: "42.1421%"
++                                   animationDelay: "3s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "3s"
+                                  }}
+                                >
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:00:28.332] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/hero-ghibli.jpg" "received" null
+[00:00:28.340] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/about-ghibli.jpg" "received" null
+[00:00:30.527] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/case-skincare.jpg" "received" null
+[00:00:31.384] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/case-drive.jpg" "received" null
+[00:00:31.836] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/case-restaurant.jpg" "received" null
+[00:00:32.032] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/case-writing.jpg" "received" null
+[00:16:25.053] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:25.299] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <Page>
+                        <main className="relative m...">
+                          <Navigation>
+                          <HeroSection>
+                            <section id="inicio" className="relative f...">
+                              <div>
+                              <div>
+                              <div>
+                              <FloatingPetal delay={0} left="10%" size={14}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "10%"
+-                                   left: "10%"
++                                   top: "28.715023990765737%"
+-                                   top: "62.6222%"
++                                   animationDelay: "0s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "0s"
+                                  }}
+                                >
+                              <FloatingPetal delay={2} left="30%" size={10}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "30%"
+-                                   left: "30%"
++                                   top: "48.44112434449014%"
+-                                   top: "35.9471%"
++                                   animationDelay: "2s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "2s"
+                                  }}
+                                >
+                              <FloatingPetal delay={4} left="70%" size={12}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "70%"
+-                                   left: "70%"
++                                   top: "37.61547953540137%"
+-                                   top: "59.1546%"
++                                   animationDelay: "4s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "4s"
+                                  }}
+                                >
+                              <FloatingPetal delay={1} left="85%" size={16}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "85%"
+-                                   left: "85%"
++                                   top: "50.119501106842094%"
+-                                   top: "62.3527%"
++                                   animationDelay: "1s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "1s"
+                                  }}
+                                >
+                              <FloatingPetal delay={3} left="50%" size={11}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "49.481167784897174%"
+-                                   top: "11.0753%"
++                                   animationDelay: "3s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "3s"
+                                  }}
+                                >
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:16:27.117] Browser WARN    Image with src "/images/case-skincare.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:27.408] Browser WARN    Image with src "/images/case-drive.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:28.083] Browser WARN    Image with src "/images/case-restaurant.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:28.699] Browser WARN    Image with src "/images/case-writing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:47.320] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:47.553] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <Page>
+                        <main className="relative m...">
+                          <Navigation>
+                          <HeroSection>
+                            <section id="inicio" className="relative f...">
+                              <div>
+                              <div>
+                              <div>
+                              <FloatingPetal delay={0} left="10%" size={14}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "10%"
+-                                   left: "10%"
++                                   top: "40.04874308489375%"
+-                                   top: "53.554%"
++                                   animationDelay: "0s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "0s"
+                                  }}
+                                >
+                              <FloatingPetal delay={2} left="30%" size={10}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "30%"
+-                                   left: "30%"
++                                   top: "21.417361538562538%"
+-                                   top: "50.4717%"
++                                   animationDelay: "2s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "2s"
+                                  }}
+                                >
+                              <FloatingPetal delay={4} left="70%" size={12}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "70%"
+-                                   left: "70%"
++                                   top: "26.960281730961437%"
+-                                   top: "11.111%"
++                                   animationDelay: "4s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "4s"
+                                  }}
+                                >
+                              <FloatingPetal delay={1} left="85%" size={16}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "85%"
+-                                   left: "85%"
++                                   top: "26.134394486073816%"
+-                                   top: "37.4714%"
++                                   animationDelay: "1s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "1s"
+                                  }}
+                                >
+                              <FloatingPetal delay={3} left="50%" size={11}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "58.209610695586626%"
+-                                   top: "21.889%"
++                                   animationDelay: "3s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "3s"
+                                  }}
+                                >
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:16:49.928] Browser WARN    Image with src "/images/case-skincare.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:49.928] Browser WARN    Image with src "/images/case-drive.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:50.246] Browser WARN    Image with src "/images/case-restaurant.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:50.246] Browser WARN    Image with src "/images/case-writing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:57.343] Server  LOG     ✓ Compiled in 81ms
+[00:22:43.970] Browser WARN    Image with src "/images/skinsmart-wireframe-recordatorios.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:43.970] Browser WARN    Image with src "/images/skinsmart-wireframe-perfil.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:43.970] Browser WARN    Image with src "/images/skinsmart-wireframe-home.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:36.293] Server  LOG     ✓ Compiled in 102ms
+[00:28:42.423] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:42.807] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <Page>
+                        <main className="relative m...">
+                          <Navigation>
+                          <HeroSection>
+                            <section id="inicio" className="relative f...">
+                              <div>
+                              <div>
+                              <div>
+                              <FloatingPetal delay={0} left="10%" size={14}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "10%"
+-                                   left: "10%"
++                                   top: "46.09703793159482%"
+-                                   top: "40.4527%"
++                                   animationDelay: "0s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "0s"
+                                  }}
+                                >
+                              <FloatingPetal delay={2} left="30%" size={10}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "30%"
+-                                   left: "30%"
++                                   top: "28.591647597600076%"
+-                                   top: "46.6026%"
++                                   animationDelay: "2s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "2s"
+                                  }}
+                                >
+                              <FloatingPetal delay={4} left="70%" size={12}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "70%"
+-                                   left: "70%"
++                                   top: "22.733696547122662%"
+-                                   top: "14.5837%"
++                                   animationDelay: "4s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "4s"
+                                  }}
+                                >
+                              <FloatingPetal delay={1} left="85%" size={16}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "85%"
+-                                   left: "85%"
++                                   top: "30.131241090600398%"
+-                                   top: "43.2724%"
++                                   animationDelay: "1s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "1s"
+                                  }}
+                                >
+                              <FloatingPetal delay={3} left="50%" size={11}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "61.94562433466574%"
+-                                   top: "36.8098%"
++                                   animationDelay: "3s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "3s"
+                                  }}
+                                >
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[00:28:42.807] Browser WARN    Image with src "/images/case-skincare.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:42.807] Browser WARN    Image with src "/images/case-drive.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:42.807] Browser WARN    Image with src "/images/case-restaurant.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:42.807] Browser WARN    Image with src "/images/case-writing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:15:28.844] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:29.091] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <Page>
+                        <main className="relative m...">
+                          <Navigation>
+                          <HeroSection>
+                            <section id="inicio" className="relative f...">
+                              <div>
+                              <div>
+                              <div>
+                              <FloatingPetal delay={0} left="10%" size={14}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "10%"
+-                                   left: "10%"
++                                   top: "58.75758701607167%"
+-                                   top: "37.6549%"
++                                   animationDelay: "0s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "0s"
+                                  }}
+                                >
+                              <FloatingPetal delay={2} left="30%" size={10}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "30%"
+-                                   left: "30%"
++                                   top: "47.0844611190381%"
+-                                   top: "37.3126%"
++                                   animationDelay: "2s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "2s"
+                                  }}
+                                >
+                              <FloatingPetal delay={4} left="70%" size={12}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "70%"
+-                                   left: "70%"
++                                   top: "37.33590175393382%"
+-                                   top: "58.6316%"
++                                   animationDelay: "4s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "4s"
+                                  }}
+                                >
+                              <FloatingPetal delay={1} left="85%" size={16}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "85%"
+-                                   left: "85%"
++                                   top: "22.370227938970135%"
+-                                   top: "61.2566%"
++                                   animationDelay: "1s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "1s"
+                                  }}
+                                >
+                              <FloatingPetal delay={3} left="50%" size={11}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "17.306419106849194%"
+-                                   top: "66.4781%"
++                                   animationDelay: "3s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "3s"
+                                  }}
+                                >
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[01:15:30.345] Browser WARN    Image with src "/images/case-skincare.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:15:30.346] Browser WARN    Image with src "/images/case-drive.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:15:30.692] Browser WARN    Image with src "/images/case-restaurant.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:15:30.692] Browser WARN    Image with src "/images/case-writing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:16:53.847] Server  LOG     ✓ Compiled in 90ms
+[01:17:01.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:02.190] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <Page>
+                        <main className="relative m...">
+                          <Navigation>
+                          <HeroSection>
+                            <section id="inicio" className="relative f...">
+                              <div>
+                              <div>
+                              <div>
+                              <FloatingPetal delay={0} left="10%" size={14}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "10%"
+-                                   left: "10%"
++                                   top: "46.2514370241751%"
+-                                   top: "51.8571%"
++                                   animationDelay: "0s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "0s"
+                                  }}
+                                >
+                              <FloatingPetal delay={2} left="30%" size={10}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "30%"
+-                                   left: "30%"
++                                   top: "14.093626287495207%"
+-                                   top: "24.8532%"
++                                   animationDelay: "2s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "2s"
+                                  }}
+                                >
+                              <FloatingPetal delay={4} left="70%" size={12}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "70%"
+-                                   left: "70%"
++                                   top: "17.057888164642932%"
+-                                   top: "20.0282%"
++                                   animationDelay: "4s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "4s"
+                                  }}
+                                >
+                              <FloatingPetal delay={1} left="85%" size={16}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "85%"
+-                                   left: "85%"
++                                   top: "36.04030976346364%"
+-                                   top: "45.9138%"
++                                   animationDelay: "1s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "1s"
+                                  }}
+                                >
+                              <FloatingPetal delay={3} left="50%" size={11}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "67.46515905499561%"
+-                                   top: "29.7472%"
++                                   animationDelay: "3s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "3s"
+                                  }}
+                                >
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[01:17:02.190] Browser WARN    Image with src "/images/case-drive.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:17:02.190] Browser WARN    Image with src "/images/case-restaurant.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:17:02.190] Browser WARN    Image with src "/images/case-writing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:17:09.353] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:37.450] Server  LOG     ✓ Compiled in 99ms
+[01:17:37.694] Browser ERROR   ./components/contact-section.tsx:15:3
+Parsing ecmascript source code failed
+  13 |     ),
+  14 |   }
+> 15 |   {
+     |   ^
+  16 |     name: "Email",
+  17 |     href: "mailto:dattolilucianabelen@gmail.com",
+  18 |     icon: (
+
+Expected ',', got '{'
+
+Import trace:
+  Server Component:
+    ./components/contact-section.tsx
+    ./app/page.tsx
+[01:17:37.695] Browser ERROR   ./components/contact-section.tsx:15:3
+Parsing ecmascript source code failed
+  13 |     ),
+  14 |   }
+> 15 |   {
+     |   ^
+  16 |     name: "Email",
+  17 |     href: "mailto:dattolilucianabelen@gmail.com",
+  18 |     icon: (
+
+Expected ',', got '{'
+
+Import trace:
+  Server Component:
+    ./components/contact-section.tsx
+    ./app/page.tsx
+[01:18:24.475] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:18:35.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:18:35.478] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <Page>
+                        <main className="relative m...">
+                          <Navigation>
+                          <HeroSection>
+                            <section id="inicio" className="relative f...">
+                              <div>
+                              <div>
+                              <div>
+                              <FloatingPetal delay={0} left="10%" size={14}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "10%"
+-                                   left: "10%"
++                                   top: "57.191495636280585%"
+-                                   top: "10.6588%"
++                                   animationDelay: "0s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "0s"
+                                  }}
+                                >
+                              <FloatingPetal delay={2} left="30%" size={10}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "30%"
+-                                   left: "30%"
++                                   top: "41.40007866367188%"
+-                                   top: "65.3631%"
++                                   animationDelay: "2s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "2s"
+                                  }}
+                                >
+                              <FloatingPetal delay={4} left="70%" size={12}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "70%"
+-                                   left: "70%"
++                                   top: "33.86045212421338%"
+-                                   top: "22.9426%"
++                                   animationDelay: "4s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "4s"
+                                  }}
+                                >
+                              <FloatingPetal delay={1} left="85%" size={16}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "85%"
+-                                   left: "85%"
++                                   top: "55.72396981200882%"
+-                                   top: "25.2457%"
++                                   animationDelay: "1s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "1s"
+                                  }}
+                                >
+                              <FloatingPetal delay={3} left="50%" size={11}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "57.27165725461989%"
+-                                   top: "40.635%"
++                                   animationDelay: "3s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "3s"
+                                  }}
+                                >
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[01:18:35.478] Browser WARN    Image with src "/images/case-skincare.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:18:35.478] Browser WARN    Image with src "/images/case-drive.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:18:35.478] Browser WARN    Image with src "/images/case-restaurant.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:18:35.478] Browser WARN    Image with src "/images/case-writing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:19:29.179] Server  LOG     ✓ Compiled in 68ms
+[01:22:25.873] Server  LOG     ✓ Compiled in 12ms
+[01:22:56.972] Server  LOG     ✓ Compiled in 15ms
+[01:23:55.988] Server  LOG     ✓ Compiled in 14ms
+[01:24:25.050] Server  LOG     ✓ Compiled in 14ms
+[01:24:49.110] Server  LOG     ✓ Compiled in 21ms
+[01:25:08.241] Server  LOG     ✓ Compiled in 73ms
+[01:25:24.198] Server  LOG     ✓ Compiled in 74ms
+[01:26:52.365] Server  LOG     ✓ Compiled in 74ms
+[01:27:16.862] Server  LOG     ✓ Compiled in 93ms
+[01:27:43.466] Server  LOG     ✓ Compiled in 78ms
+[01:27:57.841] Server  LOG     ✓ Compiled in 77ms
+[01:28:10.819] Server  LOG     ✓ Compiled in 76ms
+[01:28:38.240] Server  LOG     ✓ Compiled in 67ms
+[01:28:54.725] Server  LOG     ✓ Compiled in 64ms
+[01:29:39.873] Server  LOG     ✓ Compiled in 11ms
+[01:32:22.753] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:23.071] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <Page>
+                        <main className="relative m...">
+                          <Navigation>
+                          <HeroSection>
+                            <section id="inicio" className="relative f...">
+                              <div>
+                              <div>
+                              <div>
+                              <FloatingPetal delay={0} left="10%" size={14}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "10%"
+-                                   left: "10%"
++                                   top: "26.660550376317865%"
+-                                   top: "20.3758%"
++                                   animationDelay: "0s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "0s"
+                                  }}
+                                >
+                              <FloatingPetal delay={2} left="30%" size={10}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "30%"
+-                                   left: "30%"
++                                   top: "64.41558463763906%"
+-                                   top: "12.8939%"
++                                   animationDelay: "2s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "2s"
+                                  }}
+                                >
+                              <FloatingPetal delay={4} left="70%" size={12}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "70%"
+-                                   left: "70%"
++                                   top: "45.170208973992125%"
+-                                   top: "57.3223%"
++                                   animationDelay: "4s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "4s"
+                                  }}
+                                >
+                              <FloatingPetal delay={1} left="85%" size={16}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "85%"
+-                                   left: "85%"
++                                   top: "32.03796430617428%"
+-                                   top: "39.3872%"
++                                   animationDelay: "1s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "1s"
+                                  }}
+                                >
+                              <FloatingPetal delay={3} left="50%" size={11}>
+                                <div
+                                  className="pointer-events-none absolute animate-float-slow text-petal"
+                                  style={{
++                                   left: "50%"
+-                                   left: "50%"
++                                   top: "12.090977131899763%"
+-                                   top: "16.6634%"
++                                   animationDelay: "3s"
++                                   opacity: 0.4
+-                                   opacity: "0.4"
+-                                   animation-delay: "3s"
+                                  }}
+                                >
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[01:32:23.071] Browser WARN    Image with src "/images/case-drive.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:32:23.071] Browser WARN    Image with src "/images/case-restaurant.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:32:23.071] Browser WARN    Image with src "/images/case-writing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:32:25.393] Browser WARN    Image with src "/images/case-skincare.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
