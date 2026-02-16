@@ -79,9 +79,6 @@ export function HeroSection() {
 
           <h1 className="font-serif text-5xl font-bold leading-tight tracking-tight text-foreground md:text-6xl lg:text-7xl">
             <span className="text-balance">
-              Portafolio
-              <br />
-              Ux/Ui Designer{" "}
               <span className="relative inline-block">
                 <span className="relative z-10">Luciana Belén Dáttoli</span>
                 <span className="absolute bottom-1 left-0 -z-0 h-3 w-full bg-amber/30" />

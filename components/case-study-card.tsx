@@ -392,16 +392,19 @@ export function CaseStudyCard({ study, index }: { study: CaseStudy; index: numbe
                   {study.wireframeImages && study.wireframeImages.length > 0 ? (
                     <div className={`mt-2 grid grid-cols-1 gap-4 rounded-xl ${colors.bg} p-6 sm:grid-cols-3`}>
                       {study.wireframeImages.map((img, n) => (
-                        <div key={n} className="relative aspect-[9/16] w-full overflow-hidden rounded-xl border border-border bg-background/60">
-                          <Image
-                            src={img}
-                            alt={`Wireframe ${n + 1} - ${study.title}`}
-                            fill
-                            className="object-contain p-1"
-                          />
+                        <div key={n} className="relative w-full overflow-hidden rounded-xl border border-border bg-background/60">
+                          <div className="relative aspect-auto w-full">
+                            <Image
+                              src={img.src}
+                              alt={`Wireframe ${img.label} - ${study.title}`}
+                              width={800}
+                              height={600}
+                              className="object-contain w-full h-auto p-1"
+                            />
+                          </div>
                           <div className="absolute bottom-2 left-2 right-2">
                             <span className={`rounded-full ${colors.tag} px-2.5 py-1 font-sans text-xs font-semibold`}>
-                              {n === 0 ? "Home" : n === 1 ? "Recordatorios" : "Perfil"}
+                              {img.label}
                             </span>
                           </div>
                         </div>
