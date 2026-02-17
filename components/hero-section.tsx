@@ -137,7 +137,7 @@ export function HeroSection() {
 
             <div className="relative overflow-hidden rounded-2xl shadow-2xl shadow-primary/10">
               <Image
-                src="/images/hero-ghibli.jpg"
+                src="/images/Home Image.png"
                 alt="Ilustración estilo Studio Ghibli de una diseñadora UX trabajando en su escritorio junto a una ventana con paisaje verde"
                 width={600}
                 height={600}
